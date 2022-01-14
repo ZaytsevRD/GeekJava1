@@ -36,6 +36,7 @@ public class Lesson2 {
     }
 
     public static boolean visGod(int god){
+
         return god / 4 * 4 == god && god / 100 * 100 == god && god / 400 * 400 == god;
 
     }
